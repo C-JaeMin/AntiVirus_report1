@@ -1,4 +1,4 @@
-fb1-5:	fb1-5.l fb1-5.y
-	bison -d fb1-5.y
-	flex fb1-5.l
-	gcc -o $@ fb1-5.tab.c lex.yy.c -lfl
+report1:	report1.l report1.y
+		bison -d report1.y
+		flex report1.l
+		gcc -o $@ report1.tab.c lex.yy.c -lfl
