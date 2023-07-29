@@ -1,6 +1,6 @@
 /* recognize tokens for the calculator and print them out */
 %{
-#include "fb1-5.tab.h"
+#include "report1.tab.h"
 %}
 
 %%
